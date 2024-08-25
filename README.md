@@ -1,1 +1,1 @@
-# Machine_Learning
+En este repositorio se encuentra la implementación de una técnica de aprendizaje de máquina (regresión lineal simple) sin el uso de un framework para el _Módulo 2: Machine Learning_ del bloque _TC3006C.102: Inteligencia artificial avanzada para la ciencia de datos I_.
