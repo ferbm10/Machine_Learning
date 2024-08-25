@@ -8,7 +8,7 @@ Por: Fernando Bustos Monsiváis - A00829931
 Profesor: MSC Jesús Adrián Rodríguez Rocha
 
 Fecha de creación: Viernes 23 de agosto de 2024 a las 11:35 a.m.
-Fecha de última modificación: Domingo 25 de agosto de 2024 a las 03:40 p.m.
+Fecha de última modificación: Domingo 25 de agosto de 2024 a las 04:05 p.m.
 """
 
 # Importar la librería pandas para la manipulación de datos
@@ -118,17 +118,35 @@ Precisión del modelo: 87.00%
 """
 Reporte:
 
-En este programa, se aplica un modelo de regresión lineal simple para predecir la temperatura real utilizando la temperatura aparente como única característica (feature), sin el uso de un framework de aprendizaje de máquina. Este proceso se realizó con un dataset de Kaggle que contiene datos de temperaturas en Szeged, Hungría, desde 2006 hasta 2016.
+En este programa, se aplica un modelo de regresión lineal simple para predecir la temperatura real utilizando la 
+temperatura aparente como única característica (feature), sin el uso de un framework de aprendizaje de máquina. 
+Este proceso se realizó con un dataset de Kaggle que contiene datos de temperaturas en Szeged, Hungría, desde 
+2006 hasta 2016.
 
-El dataset utilizado, 'weatherHistory.csv', contiene varias features relacionadas con las condiciones meteorológicas. De estas, se seleccionó la temperatura aparente como feature 'X', y la temperatura real como el objetivo a predecir (label o target) 'y'. El conjunto de datos se dividió en un training set (primeras 700 instancias) para entrenar el modelo, y un test set (instancias 701-1000) para evaluar su desempeño.
+El dataset utilizado, 'weatherHistory.csv', contiene varias features relacionadas con las condiciones 
+meteorológicas. De estas, se seleccionó la temperatura aparente como feature 'X', y la temperatura real como el 
+objetivo a predecir (label o target) 'y'. El conjunto de datos se dividió en un training set (primeras 700 
+instancias) para entrenar el modelo, y un test set (instancias 701-1000) para evaluar su desempeño.
 
-El objetivo del modelo es encontrar la relación lineal entre feature y label, lo que se expresa mediante la hypothesis function o modelo: y = wx + b, donde 'w' es la pendiente y 'b' es la intersección con el eje 'y'. Este modelo se entrena para minimizar la función de costo, que en este caso es el Mean Squared Error (MSE), una medida que cuantifica el error promedio al cuadrado entre las predicciones del modelo y los valores reales.
+El objetivo del modelo es encontrar la relación lineal entre feature y label, lo que se expresa mediante la 
+hypothesis function o modelo: y = wx + b, donde 'w' es la pendiente y 'b' es la intersección con el eje 'y'. Este 
+modelo se entrena para minimizar la función de costo, que en este caso es el Mean Squared Error (MSE), una medida 
+que cuantifica el error promedio al cuadrado entre las predicciones del modelo y los valores reales.
 
-Para ajustar los parámetros 'w' y 'b', se utilizó el algoritmo de gradient descent, que actualiza estos parámetros iterativamente para minimizar el MSE. Se inicializaron 'w' y 'b' en 0, y se realizaron 12 000 iteraciones (epochs) con un learning rate (alpha) de 0.000001. Durante cada iteración, se calcula la derivada de la función de costo con respecto a 'w' y 'b', y se actualizan estos parámetros en dirección opuesta al gradiente para reducir el error.
+Para ajustar los parámetros 'w' y 'b', se utilizó el algoritmo de gradient descent, que actualiza estos 
+parámetros iterativamente para minimizar el MSE. Se inicializaron 'w' y 'b' en 0, y se realizaron 12 000 
+iteraciones (epochs) con un learning rate (alpha) de 0.000001. Durante cada iteración, se calcula la derivada de 
+la función de costo con respecto a 'w' y 'b', y se actualizan estos parámetros en dirección opuesta al gradiente 
+para reducir el error.
 
-La precisión del modelo se calculó con el número de predicciones correctas sobre el total de instancias del test set. En este caso, se obtuvo una precisión del 87.00%, lo que indica que el modelo es capaz de predecir la temperatura real a partir de la temperatura aparente con un buen nivel de precisión. También se imprimieron los primeros 15 valores predichos y los valores reales del test set para visualizar la comparación.
+La precisión del modelo se calculó con el número de predicciones correctas sobre el total de instancias del test 
+set. En este caso, se obtuvo una precisión del 87.00%, lo que indica que el modelo es capaz de predecir la 
+temperatura real a partir de la temperatura aparente con un buen nivel de precisión. También se imprimieron los 
+primeros 15 valores predichos y los valores reales del test set para visualizar la comparación.
 
-El valor del learning rate y el número de epochs son hiperparámetros clave en el rendimiento del modelo. Se seleccionaron estos valores mediante pruebas y ajustes, asegurando un balance entre el tiempo de entrenamiento y la precisión del modelo. El learning rate de 0.000001 permitió un ajuste más fino, evitando saltos grandes en la búsqueda del mínimo de la función de costo, y las 12 000 iteraciones permitieron que el modelo se ajustara de manera adecuada.
+El valor del learning rate y el número de epochs son hiperparámetros clave en el rendimiento del modelo. Se 
+seleccionaron estos valores mediante pruebas y ajustes, asegurando un balance entre el tiempo de entrenamiento y 
+la precisión del modelo.
 
 Origen del dataset: https://www.kaggle.com/datasets/budincsevity/szeged-weather
 """
