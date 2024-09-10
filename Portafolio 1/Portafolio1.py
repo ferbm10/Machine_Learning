@@ -148,7 +148,7 @@ El valor del learning rate y el número de epochs son hiperparámetros clave en 
 seleccionaron estos valores mediante pruebas y ajustes, asegurando un balance entre el tiempo de entrenamiento y 
 la precisión del modelo.
 
-Referncias:
+Referencias:
 1. Creative Commons (CC). (2024). Atribución/Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional. 
 Recuperado el lunes 09 de septiembre de 2024, de https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
 
