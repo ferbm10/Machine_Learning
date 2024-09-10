@@ -1,3 +1,5 @@
 En la carpeta **Portafolio 1** de este repositorio, se presenta la implementación de una técnica de aprendizaje automático, específicamente una regresión lineal simple, sin el uso de frameworks. También se incluye el dataset utilizado. Este trabajo corresponde al _Módulo 2: Machine Learning_, parte del bloque _TC3006C.102: Inteligencia artificial avanzada para la ciencia de datos I_.
 
 En la carpeta **Portafolio 2** de este repositorio, se presenta el uso de un framework o biblioteca de aprendizaje automático para implementar una solución. Se ha desarrollado un modelo de red neuronal convolucional (CNN) para clasificar imágenes de dígitos escritos a mano del dataset MNIST. Además, en esta misma carpeta, se encuentra el reporte sobre el desempeño del modelo implementado en _Portafolio 2_. Este trabajo corresponde al _Módulo 2: Machine Learning_, parte del bloque _TC3006C.102: Inteligencia artificial avanzada para la ciencia de datos I_.
+
+En la carpeta **Reporte Normatividad** de este repositorio, se encuentra el entregable de esta actividad: _Momento de Retroalimentación: Reto Análisis del contexto y la normatividad. (Portafolio Análisis)_.
