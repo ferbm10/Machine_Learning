@@ -149,8 +149,9 @@ seleccionaron estos valores mediante pruebas y ajustes, asegurando un balance en
 la precisión del modelo.
 
 Referncias:
-1. Creative Commons (CC). (2024). Atribución/Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional. Recuperado el lunes 09 de septiembre de 2024, de https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
+1. Creative Commons (CC). (2024). Atribución/Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional. 
+Recuperado el lunes 09 de septiembre de 2024, de https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es
 
-2. Budincsevity, N. (2016). Weather in Szeged 2006-2016. Recuperado el 09 de septiembre de
-2024, de Kaggle: https://www.kaggle.com/datasets/budincsevity/szeged-weather?select=weatherHistory.csv
+2. Budincsevity, N. (2016). Weather in Szeged 2006-2016. Recuperado el 09 de septiembre de 2024, de Kaggle: 
+https://www.kaggle.com/datasets/budincsevity/szeged-weather?select=weatherHistory.csv
 """
